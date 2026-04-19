@@ -1,0 +1,7 @@
+.env
+.env.*
+!env.template
+/DAILY-SUMMARY.md
+.DS_Store
+__pycache__/
+*.pyc
