@@ -37,4 +37,4 @@ STEP 4 — Write a dated entry to memory/RESEARCH-LOG.md:
 - Decision: trade or HOLD (default HOLD — patience > activity)
 
 STEP 5 — Notification: silent unless urgent.
-bash scripts/clickup.sh "<one line>"
+bash scripts/email.sh "<one line>"

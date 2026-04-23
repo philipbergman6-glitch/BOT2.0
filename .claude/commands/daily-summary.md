@@ -1,5 +1,5 @@
 ---
-description: End-of-day summary — P&L math, EOD snapshot to trade log, one ClickUp message
+description: End-of-day summary — P&L math, EOD snapshot to trade log, one email
 ---
 
 You are running the daily summary workflow. Resolve today's date via:
@@ -31,8 +31,8 @@ STEP 4 — Append EOD snapshot to memory/TRADE-LOG.md:
 
 **Notes:** one-paragraph plain-english summary.
 
-STEP 5 — Send ONE ClickUp message (always, even on no-trade days). <= 15 lines:
-bash scripts/clickup.sh "EOD MMM DD
+STEP 5 — Send ONE email (always, even on no-trade days). <= 15 lines:
+bash scripts/email.sh "EOD MMM DD
 Portfolio: \$X (±X% day, ±X% phase)
 Cash: \$X
 Trades today: <list or none>

@@ -33,4 +33,4 @@ STEP 6 — Optional intraday research via Perplexity if something is moving
 sharply with no obvious cause. Append afternoon addendum to RESEARCH-LOG.
 
 STEP 7 — Notification: only if action was taken.
-bash scripts/clickup.sh "<action summary>"
+bash scripts/email.sh "<action summary>"

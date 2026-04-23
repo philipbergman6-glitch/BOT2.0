@@ -1,5 +1,5 @@
 ---
-description: Friday weekly review — stats, grade, one ClickUp message, optional strategy update
+description: Friday weekly review — stats, grade, one email, optional strategy update
 ---
 
 You are running the Friday weekly review workflow. Resolve today's date via:
@@ -40,8 +40,8 @@ STEP 5 — If a rule needs to change (proven out for 2+ weeks, or failed
 badly), also update memory/TRADING-STRATEGY.md and call out the change
 in the review.
 
-STEP 6 — Send ONE ClickUp message. <= 15 lines:
-bash scripts/clickup.sh "Week ending MMM DD
+STEP 6 — Send ONE email. <= 15 lines:
+bash scripts/email.sh "Week ending MMM DD
 Portfolio: \$X (±X% week, ±X% phase)
 vs S&P 500: ±X%
 Trades: N (W:X / L:Y / open:Z)

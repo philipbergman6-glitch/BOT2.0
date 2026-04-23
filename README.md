@@ -1,14 +1,14 @@
 # Trading Bot
 
-Autonomous swing-trading agent for a ~$10,000 Alpaca account. Stocks only.
+Autonomous swing-trading agent for a ~$100,000 Alpaca paper account. Stocks only.
 Claude Code is the bot — five cloud routines fire on weekday crons, read
-memory from git, call wrappers for Alpaca/Perplexity/ClickUp, and commit
-new memory back to main.
+memory from git, call wrappers for Alpaca/Perplexity/Resend-email, and
+commit new memory back to main.
 
 ## Layout
 
 - `CLAUDE.md` — agent rulebook, auto-loaded every session
-- `scripts/` — bash wrappers for Alpaca, Perplexity, ClickUp
+- `scripts/` — bash wrappers for Alpaca, Perplexity, Resend email
 - `.claude/commands/` — local slash commands for ad-hoc use
 - `routines/` — cloud routine prompts (the production path)
 - `memory/` — persistent state, committed to main
