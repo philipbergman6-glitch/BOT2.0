@@ -6,13 +6,13 @@ load-bearing.
 
 ## Cron schedules (America/Chicago)
 
-| Routine        | Cron           | File                    |
-|----------------|----------------|-------------------------|
-| Pre-market     | `0 6 * * 1-5`  | `pre-market.md`         |
-| Market-open    | `30 8 * * 1-5` | `market-open.md`        |
-| Midday         | `0 12 * * 1-5` | `midday.md`             |
-| Daily summary  | `0 15 * * 1-5` | `daily-summary.md`      |
-| Weekly review  | `0 16 * * 5`   | `weekly-review.md`      |
+| Routine name | Cron            | File                |
+|--------------|-----------------|---------------------|
+| BOT2.0-1P    | `0 6 * * 1-5`   | `pre-market.md`     |
+| BOT2.0-2M    | `36 8 * * 1-5`  | `market-open.md`    |
+| BOT2.0-3mid  | `20 12 * * 1-5` | `midday.md`         |
+| BOT2.0-4D    | `30 15 * * 1-5` | `daily-summary.md`  |
+| BOT2.0-5W    | `20 16 * * 5`   | `weekly-review.md`  |
 
 ## One-time prerequisites per routine
 
