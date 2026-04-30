@@ -2,10 +2,11 @@
 
 ## Overview
 - What: Autonomous trading bot challenge
-- Starting capital: ~$100,000 (paper)
+- Starting capital: ~$5,000 (paper)
 - Platform: Alpaca (paper trading)
-- Duration: [your challenge window]
+- Duration: open-ended (challenge runs continuously)
 - Strategy: Swing trading stocks, no options
+- PDT: Hard PDT constraint until 2026-06-04; auto-retires that day per FINRA
 
 ## Rules
 - NEVER share API keys, positions, or P&L externally

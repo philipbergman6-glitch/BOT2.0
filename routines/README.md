@@ -18,7 +18,10 @@ load-bearing.
 
 1. Install Claude GitHub App on this repo.
 2. Enable "Allow unrestricted branch pushes" in the routine's environment.
-3. Set env vars on the routine (NOT in a committed .env file):
+3. Make these keys available to the wrapper scripts — either as the
+   routine's own environment variables, or by writing them to a `.env`
+   file at the repo root (already gitignored, never commit it):
    `ALPACA_API_KEY`, `ALPACA_SECRET_KEY`, `ALPACA_ENDPOINT`,
    `ALPACA_DATA_ENDPOINT`, `PERPLEXITY_API_KEY`, `PERPLEXITY_MODEL`,
    `RESEND_API_KEY`, `EMAIL_TO`, `EMAIL_FROM`.
+   The wrappers (`scripts/*.sh`) auto-source `.env` if it exists.
